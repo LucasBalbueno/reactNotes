@@ -11,7 +11,7 @@ export function Home () {
     return (
         <Container>
             <Brand>
-                <h1>ReactNotes</h1>
+                <h1>React Notes</h1>
             </Brand>
 
             <Header />
