@@ -1,11 +1,10 @@
-// importanto icons do react-icons depois de instalado com npm install react-icons --save
 import { RiShutDownLine } from 'react-icons/ri'
 import { Container, Profile, Logout } from './style';
 
 export function Header () {
     return (
         <Container>
-            <Profile>
+            <Profile to="/profile">
                 <img src="https://github.com/lucasBalbueno.png" alt="Foto do usuário" />
 
                 <div>
@@ -15,7 +14,6 @@ export function Header () {
             </Profile>
 
             <Logout>
-                {/* inserindo o icon no component */}
                 <RiShutDownLine />
             </Logout>
         </Container>
